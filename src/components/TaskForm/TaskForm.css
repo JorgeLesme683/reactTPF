@@ -1,0 +1,57 @@
+.TaskForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.model{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 1rem;
+}
+
+.inputs{
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.green{
+    border-color: green;
+    background-color: green;
+}
+
+.red{
+    border-color: red;
+    background-color: red;
+}
