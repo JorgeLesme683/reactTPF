@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
+import { TaskForm, TaskList } from './components'
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  const [Tasks, setTasks] = useState([])
+
+  const addTask = (Task) => {
+    setTasks([...Tasks,Task])
+  }
+  console.log(Tasks)
   return (
     <>
-
+      <TaskForm addTask={addTask}/>
+      <TaskList Tasks={Tasks}/>
     </>
   )
 }
