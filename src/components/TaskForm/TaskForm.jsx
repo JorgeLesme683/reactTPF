@@ -23,8 +23,8 @@ const handleAddTask = (e) => {
 }
 
   return (
-    <div>
-      <button onClick={handleModal}>Nueva Tarea <FaRegSquarePlus /> </button>
+    <div className='div-form'>
+      <button className='btn-form' onClick={handleModal}>Nueva Tarea <FaRegSquarePlus /> </button>
       {
         Modal
         &&
@@ -41,8 +41,8 @@ const handleAddTask = (e) => {
                 <textarea id='description' name='description' placeholder='Descripcion...' />
               </div>
               <div className='btn-container'>
-                <button type='submit'>Agregar<MdAssignmentAdd /></button>
-                <button onClick={handleModal}>Cancelar<IoIosRemoveCircle /></button>
+                <button className='btn-form' type='submit'>Agregar<MdAssignmentAdd /></button>
+                <button className='btn-form' onClick={handleModal}>Cancelar<IoIosRemoveCircle /></button>
               </div>
             </form>
           </div>
