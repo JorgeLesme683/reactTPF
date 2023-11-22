@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 import './App.css'
 import { TaskForm, TaskList } from './components'
+import Footer from './components/Footer/Footer'
+import Header from './components/TaskForm/Header/Header'
 
 function App() {
   
@@ -33,13 +35,15 @@ function App() {
 
   return (
     <>
-    
+    <Header/>
+
     <div className='controls'>
       <input type="text" placeholder='Buscar tareas' value={searchString} onChange={(handleChangeFilter)}/>
         <TaskForm addTask={addTask}/>
     </div>
     
     <TaskList tasks={currentTasks} deleteTask={deleteTask}/>
+    <Footer/>
     </>
   )
 }
