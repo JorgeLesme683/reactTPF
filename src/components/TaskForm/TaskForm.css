@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: white;
+    background-color: #EEF5FF;
     padding: 15px;
     border-radius: 1rem;
 }
@@ -43,15 +43,32 @@
 .button{
     padding: 5px;
     border-radius: 0.5rem;
-    color: white;
+    color: black;
 }
 
-.green{
-    border-color: green;
-    background-color: green;
+.okColor{
+    border-color: #9EB8D9;
+    background-color: #9EB8D9;
 }
 
 .red{
-    border-color: red;
-    background-color: red;
+    border-color: #A25772;
+    background-color: #A25772;
+    color: white;
+}
+
+@media screen and (max-width: 280px) {
+    .model{
+        max-width: 250px;
+    }
+    .form{
+        max-width: 200px;
+    }
+    .form textarea {
+        width: 100px;
+    }
+    .buttonsContainer{
+        flex-direction: column;
+        align-items: center;
+    }
 }

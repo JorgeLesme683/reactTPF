@@ -1,0 +1,56 @@
+.taskItemContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: solid 1px black;
+    border-radius: 1rem;
+    width: 80%;
+    background-color: #7C93C3;
+    color: white;
+    padding: 10px 0;
+    word-wrap: break-word;
+}
+
+.taskItemContainer p{
+    width: 80%;
+}
+
+.buttonContainer{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+.buttonContainer button{
+    padding: 5px;
+    border-radius: 0.5rem;
+    color: black;
+    border-color: #A25772;
+    background-color: #A25772;
+}
+
+.taskItemHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.taskItemHeader span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 870px) {
+    .taskItemHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 80%;
+    }
+}

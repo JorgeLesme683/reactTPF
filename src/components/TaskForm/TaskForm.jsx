@@ -32,7 +32,7 @@ const TaskForm = ({addTask}) => {
   
   return (
     <div className='TaskForm'>
-      <button onClick={emptyTrue} className='button green'>Agregar Tarea</button>
+      <button onClick={emptyTrue} className='button okColor'>Agregar Tarea</button>
       {
         empty
         &&
@@ -45,7 +45,7 @@ const TaskForm = ({addTask}) => {
               <textarea name="descripcion" id="descripcion" cols="30" rows="10" className='inputs'></textarea>
               <div className='buttonsContainer'>
                 <button onClick={emptyFalse} className='button red'>Cancelar</button>
-                <button type='submit' className='button green'>Agregar</button>
+                <button type='submit' className='button okColor'>Agregar</button>
               </div>
             </form>
           </div>
