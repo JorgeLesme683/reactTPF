@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    gap:10px
+    gap:10px;
 }
 
 .btn-container{
@@ -33,13 +33,20 @@
 
 .div-form{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 .btn-form{
     background-color: #7e76c5;
     color: #fff;
     border: none;
-    padding: 5px 10px;
     cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.btn-form:hover{
+    color: #104258;
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial;
   margin: 0;
   padding: 0;
 }
@@ -9,3 +9,16 @@ body {
   margin: auto;
   padding: 20px;
 }
+
+textarea {
+  font-family: Arial;
+}
+
+.search-div{
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content:flex-end;
+}
+

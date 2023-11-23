@@ -1,5 +1,5 @@
 .item-div {
-    border: 1px solid #ccc; /* Añadir borde al div */
+    border: 2px solid #ccc; /* Añadir borde al div */
     border-radius: 8px; /* Añadir esquinas redondeadas */
     margin-bottom: 10px; /* Espaciado entre elementos */
     padding: 10px;
@@ -21,4 +21,9 @@
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.item-button:hover{
+    color: #104258;
 }

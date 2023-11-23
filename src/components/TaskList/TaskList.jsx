@@ -5,7 +5,6 @@ import './TaskList.css';
 const TaskList = ({Tasks,deleteTask}) => {
   return (
     <div className='list-div'>
-      <h1 className='list-h1'>LISTA DE TAREAS</h1>
       {
         Tasks.length == 0
         ?<h2 className='list-h2'>NO HAY TAREAS</h2>

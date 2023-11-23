@@ -24,6 +24,7 @@ const handleAddTask = (e) => {
 
   return (
     <div className='div-form'>
+      <h1 className='list-h1'>LISTA DE TAREAS</h1>
       <button className='btn-form' onClick={handleModal}>Nueva Tarea <FaRegSquarePlus /> </button>
       {
         Modal
