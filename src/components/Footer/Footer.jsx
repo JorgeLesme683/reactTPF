@@ -1,10 +1,11 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
-        <h3>Integrantes</h3>
-        <ul>
+    <div className='footer'>
+        <h3 className='footer-h3'>INTEGRANTES</h3>
+        <ul className='footer-ul'>
             <li>Jorge Anibal Lesme Aquino</li>
             <li>Javier Maita</li>
             <li>Facundo Pepino</li>

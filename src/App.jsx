@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import './App.css'
 import { TaskForm, TaskList } from './components'
 import Footer from './components/Footer/Footer'
-import Header from './components/TaskForm/Header/Header'
+import Header from './components/Header/Header'
 
 function App() {
   
@@ -34,7 +34,7 @@ function App() {
   },[searchString, tasks]) 
 
   return (
-    <>
+    <div className='cuerpo'>
     <Header/>
 
     <div className='controls'>
@@ -44,7 +44,8 @@ function App() {
     
     <TaskList tasks={currentTasks} deleteTask={deleteTask}/>
     <Footer/>
-    </>
+
+    </div>
   )
 }
 

@@ -27,7 +27,7 @@ const TaskForm = ({addTask}) => {
   return (
     <div>
 
-        <button onClick={handleOpenModal}>Nueva Tarea <FaPlusCircle /></button>
+        <button className='btn-agregar' onClick={handleOpenModal}>NUEVA TAREA <FaPlusCircle /></button>
         
         {
             isOpenModal
@@ -38,7 +38,7 @@ const TaskForm = ({addTask}) => {
 
             <div className='modal'>
 
-                <h2>Agregar nueva tarea</h2>
+                <h2 className='modal-h2'>AGREGAR NUEVA TAREA</h2>
 
                 <form onSubmit={handleSubmitTask}>
 
@@ -53,8 +53,8 @@ const TaskForm = ({addTask}) => {
                     </div>
 
                     <div className='btn-container'>
-                        <button onClick={handleCloseModal}>Cancelar</button>
-                        <button type='submit'>Agregar</button>
+                        <button className='btn-cancelar' onClick={handleCloseModal}>Cancelar</button>
+                        <button className='btn-agrego' type='submit'>Agregar</button>
                     </div>
 
                 </form>
