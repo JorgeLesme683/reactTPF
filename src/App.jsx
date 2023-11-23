@@ -40,7 +40,7 @@ function App() {
 export default App
 
 /*
-CurrentTask almacena las tareas actuales que coincidan con el filtro de busqueda. Es el que se muestra
+CurrentTask almacena las tareas actuales que coincidan con el filtro de busqueda. Es el que se muestra constantemenet
 Tasks almacena todas las tareas existentes
 
 UseEffect ejecuta su codigo cada vez que el estado searchString o el estado Tasks cambien. 
