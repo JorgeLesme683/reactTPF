@@ -36,6 +36,7 @@
     justify-content:space-between;
     flex-direction: row;
     align-items: center;
+    width: 100%;
 }
 
 .btn-form{
@@ -49,4 +50,33 @@
 
 .btn-form:hover{
     color: #104258;
+}
+
+@media screen and (max-width: 565px){
+    .list-h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .list-h1{
+        font-size: 20px;
+    }
+
+    .div-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
 }
