@@ -12,10 +12,19 @@
 
 .modal{
     border-radius: 10px;
+    font-size: 16px;
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: 30px;
+}
+
+#title{
+    font-size: 16px;
+}
+
+#description{
+    font-size: 16px;
 }
 
 .input-container{
