@@ -29,7 +29,7 @@ function App() {
     <div className="container">
     <TaskForm addTask={addTask} />
     <div className='search-div'>
-      <input type='text'onChange={handleChangeString} value={searchString} placeholder='Buscar Tarea...'></input>
+      <input className='form-ingres' type='text'onChange={handleChangeString} value={searchString} placeholder='Buscar Tarea...'></input>
     </div>
     <hr/>
     <TaskList Tasks={CurrentTasks} deleteTask={deleteTask} />

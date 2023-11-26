@@ -31,15 +31,15 @@ const handleAddTask = (e) => {
         &&
         <div className='modal-background'>
           <div className='modal'>
-            <h2>Agregar Nueva Tarea</h2>
+            <h2 className='titulo-h2'>Agregar Nueva Tarea</h2>
             <form onSubmit={handleAddTask}>
               <div className='input-container'>
-                <label htmlFor='title'>Titulo</label>
-                <input type='text' id='title' name='title' placeholder='Titulo...' />
+                <label className='form-label' htmlFor='title'>Titulo</label>
+                <input className='form-ingres' type='text' id='title' name='title' placeholder='Titulo...' />
               </div>
               <div className='input-container'>
-                <label htmlFor='description'>Descripcion</label>
-                <textarea id='description' name='description' placeholder='Descripcion...' />
+                <label className='form-label' htmlFor='description'>Descripcion</label>
+                <textarea className='form-ingres' id='description' name='description' placeholder='Descripcion...' />
               </div>
               <div className='btn-container'>
                 <button className='btn-form' type='submit'>Agregar<MdAssignmentAdd /></button>
